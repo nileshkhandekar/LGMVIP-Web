@@ -3,17 +3,18 @@
     text-align: center;
     margin-top: 90px;
     
+
 }
 
-h1
+@media screen and (max-width: 500px)
 {
-	height: 20px;
-	font-size: 50px;
-	margin-bottom: 50px;
+	.container{
+		width: 70%;
+	}
 }
 
 body{
-	background: linear-gradient(100deg,#ff696963,#4a99a1);
+	background: linear-gradient(100deg,#f61defcf,#06ba87c7);
 }
 table
 {
@@ -23,35 +24,29 @@ table
 input
 {
 	font-size: 30px;
-	width: 310px;
-	height: 40px;
+	width: 240px;
+	height: 35px;
 	margin: 20px;
 	border: 3px solid black;
-	border-radius: 10px;
+	border-radius: 30px;
 }
-
 button
 {
-	font-size: 40px;
-	background: #d3e5eb;
-	width: 75px;
-	height: 70px;
-	border-radius: 10px;
-	margin: 2px;
+	font-size: 30px;
+	background: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 40px;
+	margin: 4px;
 
 }
 
 .calculator
 {
 	display: inline-block;
-    border-radius: 25px;
+    border-radius: 30px;
     border: 5px solid #2b2438;
-
-}
-
-button:hover{
-	background-color: white;
-	transition: 0.05s ease-in-out;
-	box-shadow: 3px 5px rgb(206, 103, 72);
-	transform:scale(1.02);
+    background-color: black;
+    height: 430px;
+    width: 280px;
 }
